@@ -1,0 +1,23 @@
+.job-container {
+  @apply flex flex-wrap flex-col w-[90%] lg:w-[90%] xl:w-[70%] 2xl:w-[60%]  lg:flex-row bg-white shadow-lg m-8  p-4 lg:m-4 relative;
+
+  .job-logo {
+    @apply absolute lg:static lg:self-center overflow-hidden top-[-20px] w-[60px] h-[60px] bg-blue-100 
+     rounded-[50%] flex border-[2px] border-blue-100;
+
+    img {
+      width: 100%;
+      // position: absolute;
+      top: 40%;
+      left: 20%;
+
+      object-fit: contain;
+    }
+  }
+  .job-contain {
+    @apply ml-3 mt-8 lg:mt-0 flex flex-col w-[100%] lg:w-[50%] items-start;
+  }
+  .job-skill {
+    @apply flex flex-1 lg:justify-end items-center gap-2;
+  }
+}

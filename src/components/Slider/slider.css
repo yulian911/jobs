@@ -1,0 +1,27 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+.slick-prev {
+  /* left: 0;
+  z-index: 10; */
+}
+
+.slick-next {
+  /* right: 0;
+  z-index: 10; */
+  background-color: blue;
+}
+
+.slick-hero .slick-prev {
+  /* left: 25px; */
+}
+
+.slick-hero .slick-next {
+  /* right: 25px; */
+  /* background-color: blue; */
+}
+.slick-hero .slick-arrow::before {
+  @apply bg-teal-500;
+  /* background-color: blue; */
+  border-radius: 50%;
+}
